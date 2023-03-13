@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatGPT Clone</title>
+	<!-- Link to CSS stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>ChatGPT Clone</h1>
+	</header>
+
+	<main>
+		<section id="message-area">
+			<ul id="messages-list">
+				<!-- Message items will be dynamically added here -->
+			</ul>
+		</section>
+
+		<section id="message-form">
+			<form>
+				<label for="message">Message:</label>
+				<input type="text" id="message" name="message" autocomplete="off">
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+
+	<!-- Link to JavaScript file -->
+	<script src="script.js"></script>
+</body>
+</html>
